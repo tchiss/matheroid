@@ -1,6 +1,8 @@
+var User = require("./User")
+
 module.exports = {
 	attributes: {
-		id: {type: int},
+		//id: {type: int},
 		user_id: {type: User},
 		confirmed: {type: Boolean}
 	}

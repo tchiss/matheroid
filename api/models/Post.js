@@ -6,4 +6,4 @@ module.exports = {
 		author: {type: String},
 		status: {type: Boolean}
 	},
-}
+};
