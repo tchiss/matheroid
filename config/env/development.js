@@ -20,5 +20,5 @@ module.exports = {
   // models: {
   //   connection: 'someMongodbServer'
   // }
-
+  livereloadPath: "//localhost:35729/livereload.js"
 };

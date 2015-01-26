@@ -16,7 +16,9 @@ module.exports = function(grunt) {
 
 	grunt.config.set('watch', {
 		api: {
-
+			options:{
+				livereload: true
+			},
 			// API files to watch:
 			files: ['api/**/*']
 		},
