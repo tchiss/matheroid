@@ -20,7 +20,7 @@ module.exports = {
     google: {},
     github: {},
 
-    toJSON: function(){ var obj = this.toObject(); delete obj.password; delete obj.hashedPassword; delete obj.confirmation; delete obj._csrf; return obj;}
+    toJSON: function(){ var user = this.toObject(); delete user.password; delete user.hashedPassword; delete user.confirmation; delete user._csrf; return user;}
   },
 
   beforCreate: function(values, next){
