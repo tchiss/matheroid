@@ -6,6 +6,13 @@
  */
 
 module.exports = {
-	
+	'create': function(req, res, next){
+
+	},
+
+	'delete': function(req, res, next){
+
+	},
+	_config: {}
 };
 
