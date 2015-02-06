@@ -19,7 +19,7 @@ module.exports = {
 		return next();
 	},
 
-	'leave': function(req, res, next){ // Quitter la room
+	'leave': function(req, res, next){ // Quitter la roomId
 		var roomId = req.param('roomId');
 		Room.unsubscribe(req, roomId, ['message']);
 

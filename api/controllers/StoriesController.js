@@ -6,6 +6,12 @@
  */
 
 module.exports = {
-	
+	'index': function(req, res, next){
+
+	},
+
+	'read': function(req, res, next){
+		
+	}
 };
 
