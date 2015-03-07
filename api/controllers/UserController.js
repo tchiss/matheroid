@@ -18,7 +18,6 @@ module.exports = {
         req.session.flash = {
           err: err
         }
-
         return res.redirect('/user/new');
       }
 
@@ -33,7 +32,7 @@ module.exports = {
       res.view({
         user: user
       });
-    });
+    }).limit(1);
   },
 
   'index': function(req, res, next){
