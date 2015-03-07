@@ -41,7 +41,7 @@ module.exports.session = {
   * session store that can be shared across multiple Sails.js servers        *
   ***************************************************************************/
 
-  // adapter: 'redis',
+   adapter: 'redis',
 
   /***************************************************************************
   *                                                                          *
@@ -52,11 +52,14 @@ module.exports.session = {
   *                                                                          *
   ***************************************************************************/
 
-  // host: 'localhost',
-  // port: 6379,
+  //redis://redistogo:284c6e7c3b85e6255fc13a052a8f7301@soapfish.redistogo.com:9106/,
+
+   host: 'soapfish.redistogo.com',
+   port: 9106,
+   user: 'redistogo',
   // ttl: <redis session TTL in seconds>,
   // db: 0,
-  // pass: <redis auth password>
+   pass: '284c6e7c3b85e6255fc13a052a8f7301'
   // prefix: 'sess:'
 
 

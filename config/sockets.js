@@ -91,11 +91,12 @@ module.exports.sockets = {
   *                                                                          *
   ***************************************************************************/
 
-  // adapter: 'redis',
-  // host: '127.0.0.1',
-  // port: 6379,
-  // db: 'sails',
-  // pass: '<redis auth password>'
+   adapter: 'redis',
+   host: 'soapfish.redistogo.com',
+   port: 9106,
+   user: 'redistogo',
+   pass: '284c6e7c3b85e6255fc13a052a8f7301'
+   // db: 'sails',
 
 
   /***************************************************************************
