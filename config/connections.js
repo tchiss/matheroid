@@ -66,7 +66,7 @@ module.exports.connections = {
   },*/
   someMongodbServer: {
     adapter: 'sails-mongo',
-    host: 'ds037571.mongolab.com',
+    host: 'ds037611.mongolab.com',
     port: 37571,
     user: 'matheroid_db',
     password: '>.>vxjNb',
