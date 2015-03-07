@@ -64,13 +64,14 @@ module.exports.connections = {
     password: '',
     database: 'matheroid'
   },*/
-  someMongodbServer: {
+  MongoLabdbServer: {
     adapter: 'sails-mongo',
-    host: 'ds037611.mongolab.com',
+    /*host: 'ds037611.mongolab.com',
     port: 37571,
     user: 'matheroid_db',
     password: '>.>vxjNb',
-    database: 'matheroid_db'
+    database: 'matheroid_db'*/
+    url: process.env.MONGOLAB_URI
   },
 
   /***************************************************************************
